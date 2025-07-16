@@ -1,0 +1,52 @@
+@import "@fontsource/inter";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Global Reset & Typography === */
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  @apply bg-white text-black dark:bg-gray-900 dark:text-gray-200;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply text-base leading-relaxed antialiased transition-colors duration-300;
+}
+
+/* === Responsive Font Scaling === */
+@media (max-width: 768px) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* === Button Styling === */
+button {
+  @apply transition duration-200 ease-in-out focus:outline-none focus:ring-2 focus:ring-violet-500;
+}
+
+/* === Headings === */
+h1, h2, h3 {
+  @apply font-bold leading-tight;
+}
+
+/* === Glowing Button / Neon Utility Classes === */
+.glow {
+  @apply text-white font-bold py-2 px-4 rounded shadow-lg;
+  background: linear-gradient(90deg, #6366f1, #9333ea);
+  box-shadow: 0 0 10px #6366f1, 0 0 20px #9333ea;
+  transition: all 0.3s ease-in-out;
+}
+
+.glow:hover {
+  box-shadow: 0 0 15px #8b5cf6, 0 0 30px #d946ef;
+  transform: scale(1.05);
+}

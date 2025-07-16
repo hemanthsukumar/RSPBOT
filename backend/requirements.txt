@@ -1,0 +1,14 @@
+# --- Web Framework ---
+fastapi
+uvicorn[standard]
+
+# --- Environment Variable Loader ---
+python-dotenv
+
+# --- Optional: Training Enhancements ---
+numpy                # for future numeric operations (optional)
+scikit-learn         # for ML extensions if needed later
+pandas               # for loading real datasets (optional)
+
+# --- Development & Debugging (optional) ---
+httpx                # for testing FastAPI endpoints
