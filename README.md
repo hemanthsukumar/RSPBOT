@@ -1,4 +1,4 @@
-	# 🧠 Rock-Paper-Scissors AI Bot
+# 🧠 Rock-Paper-Scissors AI Bot
 
 An AI-powered Rock-Paper-Scissors web app that learns your patterns over time using Q-learning and n-gram sequence recognition. Built with:
 
