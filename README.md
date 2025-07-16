@@ -19,35 +19,6 @@ An AI-powered Rock-Paper-Scissors web app that learns your patterns over time us
 
 ---
 
-## 🧱 Project Structure
-
-RPSBOT/
-├── backend/
-│   ├── app/
-│   │   ├── main.py           # FastAPI app
-│   │   ├── model.py          # QLearningBot (legacy mode)
-│   │   ├── predictor.py      # N-gram + Q-table hybrid logic
-│   │   └── q_table.pkl       # Trained model
-│   ├── requirements.txt
-│   └── Dockerfile
-│
-├── frontend/
-│   ├── public/
-│   │   └── sounds/           # rock.wav, paper.wav, scissors.wav
-│   ├── src/
-│   │   ├── App.jsx           # UI logic
-│   │   └── …
-│   ├── index.html
-│   ├── package.json
-│   ├── tailwind.config.js
-│   ├── vite.config.js
-│   └── Dockerfile
-│
-├── docker-compose.yml
-└── README.md
-
----
-
 ## ⚙️ Setup Instructions
 
 ### 🐳 Using Docker (Recommended)
