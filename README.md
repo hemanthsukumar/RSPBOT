@@ -1,4 +1,4 @@
-# 🧠 Rock-Paper-Scissors AI Bot
+	# 🧠 Rock-Paper-Scissors AI Bot
 
 An AI-powered Rock-Paper-Scissors web app that learns your patterns over time using Q-learning and n-gram sequence recognition. Built with:
 
@@ -27,7 +27,7 @@ Make sure Docker & Docker Compose are installed.
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourname/RPSBOT.git
+git clone https://github.com/hemanthsukumar/RPSBOT.git
 cd RPSBOT
 
 # Train the Q-learning bot (optional, pre-trained model is included)
